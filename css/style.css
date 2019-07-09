@@ -1,0 +1,159 @@
+body{
+    background-color: rgba(212, 233, 25, 0);
+}
+
+.judul-utama {
+    color: black;
+    font-style: normal;
+}
+
+.p1 {
+    font-style: initial;
+}
+
+/*start anchor/hyperlink*/
+a:link,
+a:visited{
+            color: blue;
+            text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color:white;
+    text-decoration:underline;
+}
+/*end anchor/hyperlink*/
+
+/*start container*/
+    .container{
+        margin:20px;
+        overflow:auto;
+        width:89%;
+    }
+    .containerfull{
+        margin:20px;
+        overflow:auto;
+        width:100%;
+    }
+
+/*end container*/
+
+/*start box logo*/
+    .boxlogo{
+        background-color: rgba(49, 253, 8, 0.479);
+       /* border: 1px solid;*/
+        border-radius: 4px;
+        padding: 20px 0;
+    }
+/*end box logo*/
+
+
+/*start menu primer*/
+.menuprimer ul{
+                background-color: rgba(49, 253, 8, 0.479);
+                border:1px solid;
+                border-radius: 4px;
+                box-shadow: 2px;
+                text-align: center;
+                border-radius: 4px;
+                font-weight: bold;
+                
+}
+
+.menuprimer li{
+                border-right: 1px solid;
+                display: inline-block;
+                margin:0-4px
+}
+.menuprimer a{
+                color: black;
+                font-size: 13px;
+                display: inline-block;
+                letter-spacing:1px;
+                padding: 10px 20px;
+                text-transform: uppercase;
+}
+
+
+.menuprimer a:hover{
+                        background-color:whitesmoke;
+                        color: black;
+                        text-decoration: none;             
+}
+
+
+.menuprimer.active{
+                        background-color: burlywood;
+                        color:red;
+                        text-decoration: none;
+}
+/*end menuprimer*/
+
+/*start jumbotron*/
+    .jumbotron{
+        background-color: rgba(49, 253, 8, 0.479);
+       /* border: 1px solid;*/
+        border-radius: 4px;
+        padding: 20px 0;
+    }
+/*end jumbotron*/
+
+/*start mainhome*/
+    .mainhomeone{
+        float: left;
+        width: 49%;
+    }
+    .mainhometwo{
+        float: right;
+        width:49%;
+    }
+    .mainhomeone .boxisi,
+    .mainhometwo .boxisi{
+        height:150px;
+    }
+
+/*end mainhome*/
+
+/*start box*/
+    .boxheading{
+        background-color:rgba(49, 253, 8, 0.479);
+        border:1px solid;
+        border-radius: 3px 3px 0 0;
+        margin:0;
+        padding:10px 20px;
+        text-transform: uppercase;
+    }
+    .boxisi{
+        background-color: rgba(49, 253, 8, 0.479);
+        border:1px solid;
+        border-radius: 3px 3px 0 0;
+        margin:0;
+        padding:10px 20px;
+
+    }
+/*end box*/
+
+/*start menu sekunder*/
+    .menusekunder{
+        background-color: rgba(49, 253, 8, 0.479);
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        overflow: auto;
+        padding:10px 0;
+    }
+    .menusekunder ul{
+        padding:0;
+    }
+    .menusekunder li{
+        list-style: disc;
+    }
+
+    .menusekunderone,
+    .menusekundertwo,
+    .menusekunderthree{
+        float: left;
+        width:30%;
+    }
+
+/*end menu sekunder*/
